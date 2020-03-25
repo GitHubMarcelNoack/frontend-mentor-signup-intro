@@ -38,12 +38,28 @@
             <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
           </div>
           <div class="form-container bs-bot-10 br-10">
-            <form class="form">
-              <input class="form-control br-5" type="text" placeholder="First Name" />
-              <input class="form-control br-5" type="text" placeholder="Last Name" />
-              <input class="form-control br-5" type="email" placeholder="Email Address" />
-              <input class="form-control br-5" type="password" placeholder="Password" />
-              <button class="bt-submit br-5">Claim Your Free Trial</button>
+            <form id="form" class="form">
+              <div class="form-control">
+                <input id="firstName" class="br-5" type="text" placeholder="First Name"/>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+              </div>
+              <div class="form-control">
+                <input id="lastName" class="br-5" type="text" placeholder="Last Name"/>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+              </div>
+              <div class="form-control">
+                <input id="email" class="br-5" type="text" placeholder="Email Address"/>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+              </div>
+              <div class="form-control">
+                <input id="password" class="br-5" type="password" placeholder="Password"/>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+              </div>
+              <button class="bt-submit br-5" type="submit">Claim Your Free Trial</button>
             </form>
             <p class="form-info">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
           </div>
@@ -60,5 +76,7 @@
         </p>
       </footer>
     </div>
+    <script src="https://kit.fontawesome.com/d92a3004ed.js" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
   </body>
 </html>
