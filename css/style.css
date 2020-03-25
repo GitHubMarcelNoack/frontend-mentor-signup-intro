@@ -108,6 +108,11 @@ header p {
   font-weight: bold;
 }
 
+.form-info span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .bt-submit {
   background-color: var(--primary-green);
   padding: 15px;
