@@ -40,16 +40,21 @@ body {
 }
 
 header {
-  width: 100%;
   color: #fff;
-  text-align: center;
   margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
 }
 
 header p {
   margin-top: 20px;
   font-weight: 200;
   font-size: 16px;
+  width: 80%;
 }
 
 .secondary-info {
@@ -135,5 +140,16 @@ header p {
   border-radius: 5px;
 }
 
-@media only screen and(min-width: 1440px) {
+/* Desktop style */
+@media only screen and (min-width: 1440px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  header {
+    text-align: start;
+    align-items: flex-start;
+    width: 30%;
+  }
 }
