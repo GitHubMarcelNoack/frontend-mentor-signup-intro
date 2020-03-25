@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+:root {
+  --primary-red: hsl(0, 100%, 74%);
+  --primary-green: hsl(154, 59%, 51%);
+
+  --accent-blue: hsl(248, 32%, 49%);
+
+  --neutral-dark-blue: hsl(249, 10%, 26%);
+  --neutral-grayish-blue: hsl(246, 25%, 77%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  overflow-y: scroll;
+}
+
+.container {
+  min-width: 375px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/images/bg-intro-mobile.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--primary-red);
+  padding: 50px 20px 0 20px;
+}
+
+header {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+header p {
+  margin-top: 20px;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.secondary-info {
+  color: #fff;
+  background-color: var(--accent-blue);
+  height: 80px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.secondary-info p {
+  text-align: center;
+}
+
+.secondary-info p > span {
+  font-weight: bold;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form-control {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  width: 95%;
+}
+
+.form-info {
+  text-align: center;
+  font-size: 11px;
+  width: 75%;
+  color: var(--neutral-grayish-blue);
+}
+
+.form-info span {
+  color: var(--primary-red);
+  font-weight: bold;
+}
+
+.bt-submit {
+  background-color: var(--primary-green);
+  padding: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  width: 95%;
+  cursor: pointer;
+}
+
+.bs-bot-10 {
+  box-shadow: 0 10px rgba(0, 0, 0, 0.22);
+}
+
+.br-10 {
+  border-radius: 10px;
+}
+
+.br-5 {
+  border-radius: 5px;
+}
+
+@media only screen and(min-width: 1440px) {
+}
